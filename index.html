@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styles.css">
     <title>Admin Dashboard</title>
 </head>
-<body>
+<body class="inter">
 
     <div class="main-container">
 
@@ -14,12 +14,15 @@
             <div class="upper-heading">
 
                 <div class="upper-heading-left">
-                    <img src="icons/binoculars.svg" alt="search-icon" class="icon">
-                    <input type="search">
+                    <label for="searchButton">
+                    <img src="icons/magnify.svg" alt="search-icon" class="icon">
+                    </label>
+                    <input type="search" id="searchButton">
+                
                 </div>
 
                 <div class="upper-heading-right">
-                    <img src="icons/square-rounded-badge.svg" alt="notifications" class="icon">
+                    <img src="icons/bell-outline.svg" alt="notifications" class="icon">
                     <img src="images/let-profile.png" alt="" class="small-profile-pic">
                     <h3>Let Let</h3>
                 </div>
@@ -45,13 +48,13 @@
 
         <div class="sidebar">
             <div class="sidebar-greetings">
-                <img src="icons/cat.svg" alt="cat-icon" class="sidebar-dashboard-icon">
+                <img src="icons/bulletin-board.svg" alt="cat-icon" class="sidebar-dashboard-icon">
                 <h2>Dashboard</h2>
             </div>
 
             <div class="sidebar-navigation">
                 <ul>
-                    <li><img src="icons/home-circle-outline.svg" alt="" class="sidebar-icon"> Home</li>
+                    <li><img src="icons/home-circle-outline.svg" alt="" class="sidebar-icon"> <span>Home</span></li>
                     <li><img src="icons/profile.svg" alt="" class="sidebar-icon"> Profile</li>
                     <li><img src="icons/message-badge-outline.svg" alt="" class="sidebar-icon"> Messages</li>
                     <li><img src="icons/history.svg" alt="" class="sidebar-icon"> History</li>
@@ -79,68 +82,68 @@
 
                 <div class="card-container">
                     <div class="card">
-                        <h4 class="card-title">Super Cool Project</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis culpa dolor labore porro, quas ea, possimus.</p>
+                        <h4 class="card-title">Recipes</h4>
+                        <p class="card-text">First TOP Project showcasing basic HTML and CSS.</p>
 
                         <div class="card-icon-container">
-                            <img src="icons/like.svg" alt="" class="card-icon">
-                            <img src="icons/dislike.svg" alt="" class="card-icon">
-                            <img src="icons/share.svg" alt="" class="card-icon">
+                            <img src="icons/like.svg" alt="" class="card-icon" title="Like Project">
+                            <img src="icons/dislike.svg" alt="" class="card-icon" title="Dislike Project">
+                            <img src="icons/share.svg" alt="" class="card-icon" title="Share Project">
                         </div>
                     </div>
 
                     <div class="card">
-                        <h4 class="card-title">Super Cool Project</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis culpa dolor labore porro, quas ea, possimus.</p>
+                        <h4 class="card-title">Landing Page</h4>
+                        <p class="card-text">Second TOP Project using CSS Flexbox.</p>
 
                         <div class="card-icon-container">
-                            <img src="icons/like.svg" alt="" class="card-icon">
-                            <img src="icons/dislike.svg" alt="" class="card-icon">
-                            <img src="icons/share.svg" alt="" class="card-icon">
+                            <img src="icons/like.svg" alt="" class="card-icon" title="Like Project">
+                            <img src="icons/dislike.svg" alt="" class="card-icon" title="Dislike Project">
+                            <img src="icons/share.svg" alt="" class="card-icon" title="Share Project">
                         </div>
                     </div>
 
                     <div class="card">
-                        <h4 class="card-title">Super Cool Project</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis culpa dolor labore porro, quas ea, possimus.</p>
+                        <h4 class="card-title">Rock Paper Scissors</h4>
+                        <p class="card-text">Third project of TOP using HTML DOM, CSS and basic JavaScript.</p>
 
                         <div class="card-icon-container">
-                            <img src="icons/like.svg" alt="" class="card-icon">
-                            <img src="icons/dislike.svg" alt="" class="card-icon">
-                            <img src="icons/share.svg" alt="" class="card-icon">
+                            <img src="icons/like.svg" alt="" class="card-icon" title="Like Project">
+                            <img src="icons/dislike.svg" alt="" class="card-icon" title="Dislike Project">
+                            <img src="icons/share.svg" alt="" class="card-icon" title="Share Project">
                         </div>
                     </div>
 
                     <div class="card">
-                        <h4 class="card-title">Super Cool Project</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis culpa dolor labore porro, quas ea, possimus.</p>
+                        <h4 class="card-title">Etch-a-Sketch</h4>
+                        <p class="card-text">Fourth project of TOP to test fundamentals of JavaScript.</p>
 
                         <div class="card-icon-container">
-                            <img src="icons/like.svg" alt="" class="card-icon">
-                            <img src="icons/dislike.svg" alt="" class="card-icon">
-                            <img src="icons/share.svg" alt="" class="card-icon">
+                            <img src="icons/like.svg" alt="" class="card-icon" title="Like Project">
+                            <img src="icons/dislike.svg" alt="" class="card-icon" title="Dislike Project">
+                            <img src="icons/share.svg" alt="" class="card-icon" title="Share Project">
                         </div>
                     </div>
 
                     <div class="card">
-                        <h4 class="card-title">Super Cool Project</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis culpa dolor labore porro, quas ea, possimus.</p>
+                        <h4 class="card-title">Calculator</h4>
+                        <p class="card-text">Last project of TOP foundation which mainly test the understanding of HTML, CSS and JavaScript basics.</p>
 
                         <div class="card-icon-container">
-                            <img src="icons/like.svg" alt="" class="card-icon">
-                            <img src="icons/dislike.svg" alt="" class="card-icon">
-                            <img src="icons/share.svg" alt="" class="card-icon">
+                            <img src="icons/like.svg" alt="" class="card-icon" title="Like Project">
+                            <img src="icons/dislike.svg" alt="" class="card-icon" title="Dislike Project">
+                            <img src="icons/share.svg" alt="" class="card-icon" title="Share Project">
                         </div>
                     </div>
 
                     <div class="card">
-                        <h4 class="card-title">Super Cool Project</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis culpa dolor labore porro, quas ea, possimus.</p>
+                        <h4 class="card-title">Sign-up Form</h4>
+                        <p class="card-text">First project of TOP on intermediate HTML and CSS.</p>
 
                         <div class="card-icon-container">
-                            <img src="icons/like.svg" alt="" class="card-icon">
-                            <img src="icons/dislike.svg" alt="" class="card-icon">
-                            <img src="icons/share.svg" alt="" class="card-icon">
+                            <img src="icons/like.svg" alt="" class="card-icon" title="Like Project">
+                            <img src="icons/dislike.svg" alt="" class="card-icon" title="Dislike Project">
+                            <img src="icons/share.svg" alt="" class="card-icon" title="Share Project">
                         </div>
                     </div>
 
@@ -155,21 +158,21 @@
                     
                     <div class="announcement">
                     <h4>Site Maintenance</h4>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit omnis eos natus itaque doloremque aperiam? Facilis, delectus.
+                    At exactly when the solar eclipes strikes, the site will be down.
                     </div>
 
                     <hr>
                     
                     <div class="announcement">
-                    <h4>Site Maintenance</h4>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit omnis eos natus itaque doloremque aperiam? Facilis, delectus.
+                    <h4>New Version</h4>
+                    Version 1.2 will be released soon with working features and buttons!
                     </div>
                     <hr>
 
 
                     <div class="announcement">
-                    <h4>Site Maintenance</h4>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit omnis eos natus itaque doloremque aperiam? Facilis, delectus.
+                    <h4>Ads are welcome!</h4>
+                    Do you want to scale your business up? Email directly and reach clients and like never before!
                     </div>
 
 
@@ -182,18 +185,30 @@
                     <div class="trending">
                         <img src="images/let-profile.png" alt="" class="small-profile-pic"> 
                         <div class="username">
-                            <p>@kurt</p>
-                            <p>kurt</p>
+                            <p><strong>@meowlet</strong></p>
+                            <p>...</p>
                         </div>
                     </div>
                     <div class="trending">
-                        <img src="images/let-profile.png" alt="" class="small-profile-pic">
+                        <img src="images/jimmy.webp" alt="" class="small-profile-pic">
+                        <div class="username">
+                            <p><strong>@jimmymcgill</strong></p>
+                            <p>Saul Goodman strikes again!</p>
+                        </div>
                     </div>
                     <div class="trending">
-                        <img src="images/let-profile.png" alt="" class="small-profile-pic">
+                        <img src="images/spiderman.webp" alt="" class="small-profile-pic">
+                        <div class="username">
+                            <p><strong>@realspida</strong></p>
+                            <p>Spiderman currently out of webs!?!?</p>
+                        </div>
                     </div>
                     <div class="trending">
-                        <img src="images/let-profile.png" alt="" class="small-profile-pic">
+                        <img src="images/elon.webp" alt="" class="small-profile-pic">
+                        <div class="username">
+                            <p><strong>@elonmusk</strong></p>
+                            <p>We're going to mars with this one</p>
+                        </div>
                     </div>
 
 
